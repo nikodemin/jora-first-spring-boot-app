@@ -10,4 +10,10 @@ public class MainPageController {
     public String mainPage() {
         return "index";
     }
+
+
+    @GetMapping("user")
+    public String userPage() {
+        return "user";
+    }
 }
